@@ -15,7 +15,7 @@ import {
 import Slider from "react-slick";
 import { styled } from "@mui/system";
 import { SiMongodb, SiRedux } from "react-icons/si";
-import { FaNodeJs, FaReact, FaNode } from "react-icons/fa";
+import {  FaReact, FaNode } from "react-icons/fa";
 
 const property = [
   {
@@ -39,9 +39,9 @@ const property = [
     ],
   },
   {
-    title: "Kimaye: Growers of India’s Finest Fruits",
+    title: "Kimaye: India’s Finest Fruits",
     description:
-      "At Kimaye, we grow India’s finest fruits with care, ensuring unmatched quality. Each fruit is cleaned, packed, and delivered fresh for a worry-free experience. Enjoy the delight of nature in every bite!",
+      "At Kimaye, we grow India’s finest fruits, celebrating nature’s gift with care and precision. Each fruit is carefully nurtured, cleaned, and packed to ensure unmatched safety and freshness. With Kimaye, every bite is a delightful and worry-free experience!",
     img: [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzbVF4VCxjUecknpjJbMN5-vwAMK-FVE7-GWtQBmzZpUR3QdZP9HmUhFyuinVXRRGmSnA&usqp=CAU",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHqg49Be7NA1T5QybEWvZ5RYehA5rGQkMU-MTBdsfVxpIgJA4fTd2H9ReWh93Nl0x4F3Y&usqp=CAU",
@@ -50,7 +50,7 @@ const property = [
       // "https://i.ibb.co/TvtxFDV/Screenshot-2024-10-28-174212.png",
     ],
     preview_link: "https://mykimaye.netlify.app/",
-    github_link: null,
+    github_link: "https://github.com/mdshahbajalam7/Kimaye_clone",
     tech_stacks: [
       <FaReact size={20} />,
       <FaNode size={20} />,

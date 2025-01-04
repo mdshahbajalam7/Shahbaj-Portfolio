@@ -14,20 +14,20 @@ const experiences = [
   {
     company: "Advance Digital Solutions",
     title: "Full Stack Developer",
-    duration: "March 2022 - October 2024",
+    duration: "March 2023 - October 2024",
     responsibilities: [
-   
-      "Integrated the ABDM API framework to enhance healthcare services, improving interoperability and data access for patient management and healthcare providers.",
-      "Implemented a customer support system using Socket.io, enabling real-time communication between users and support agents, increasing response times and customer satisfaction.",
-      "Developed notification services utilizing AWS SNS for efficient and scalable user communication, ensuring timely alerts for critical updates and system messages.",
+      "Crafted a user-friendly Admin dashboard for managing products, billing, and customer accounts, significantly enhancing efficiency for businesses of all sizes.",
+      "Designed and developed the YORE Care website using React.js, ensuring a modern and seamless user experience.",
+      "Designed and developed the Advance Digital Solutions website using Next.js, delivering a contemporary and intuitive interface.",
+      "Integrated Socket.io for real-time data updates, enhancing user interaction and experience.",
+      "Implemented SEO strategies across all pages to enhance visibility and search engine rankings.",
       "Designed and maintained RESTful APIs for secure and efficient data handling in various applications, following best practices for REST architecture to optimize performance.",
-      "Implemented caching mechanisms using Redis to enhance application performance and reduce database load, resulting in significant improvements in response times for frequently accessed data.",
       "Utilized JWT (JSON Web Tokens) for secure authentication and authorization of API access, implementing token expiration and refresh strategies to enhance security.",
       "Integrated Matrix protocol for decentralized communication, enabling scalable and secure messaging features that support multiple channels and user interactions.",
       "Employed Sentry for real-time error tracking and monitoring, improving bug detection and resolution times, leading to a more stable application environment.",
       "Conducted performance tuning and optimization of server-side applications, implementing load balancing and database indexing to further improve system efficiency and reduce latency.",
-      
-    ]
+      "Committed to ongoing learning about new web technologies to continuously improve and contribute innovative ideas to the team."
+    ],
   },
 ];
 
@@ -72,7 +72,12 @@ const Experience = () => {
             <Divider sx={{ my: 2 }} />
             <Box>
               {exp.responsibilities.map((item, idx) => (
-                <Typography key={idx} variant="body2" color="text.secondary" paragraph>
+                <Typography
+                  key={idx}
+                  variant="body2"
+                  color="text.secondary"
+                  paragraph
+                >
                   - {item}
                 </Typography>
               ))}

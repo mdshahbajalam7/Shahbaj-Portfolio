@@ -11,7 +11,8 @@ import { motion } from "framer-motion"
 
 export default function Home() {
   const handleDownload = () => {
-    const resumeUrl = 'https://drive.google.com/file/d/1c4QCJgN_5IsLXmkyAE10cmQawYFaowmP/view?usp=sharing'; 
+    const resumeUrl =
+      "https://drive.google.com/file/d/1fitzrt19HzgINJGKNMxeLlP9_ZJdDd6Z/view?usp=sharing"; 
     window.open(resumeUrl, '_blank');
   };
   return (
