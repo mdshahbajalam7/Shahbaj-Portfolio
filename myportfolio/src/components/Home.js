@@ -12,7 +12,7 @@ import { motion } from "framer-motion"
 export default function Home() {
   const handleDownload = () => {
     const resumeUrl =
-      "https://drive.google.com/file/d/1fitzrt19HzgINJGKNMxeLlP9_ZJdDd6Z/view?usp=sharing"; 
+      "https://drive.google.com/file/d/1n2wfHweVTlt6vzjq-dOrk5vk4UsqGMLE/view?usp=sharing"; 
     window.open(resumeUrl, '_blank');
   };
   return (
