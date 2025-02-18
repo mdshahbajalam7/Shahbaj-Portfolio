@@ -15,7 +15,7 @@ import {
 import Slider from "react-slick";
 import { styled } from "@mui/system";
 import { SiMongodb, SiRedux } from "react-icons/si";
-import {  FaReact, FaNode } from "react-icons/fa";
+import { FaReact, FaNode } from "react-icons/fa";
 
 const property = [
   {
@@ -58,15 +58,15 @@ const property = [
       <SiRedux size={20} />,
     ],
   },
-  {
-    title: "Cryptocurrency Price Tracker",
-    description:
-      "Real-time, with automated email alerts via Nodemailer when price thresholds are met. Configured flexible environment settings for adaptability across deployments. Additionally, provided API endpoints to retrieve historical Bitcoin price data, ensuring easy access to past trends.",
-    img: ["https://i.ibb.co/0BvFtYS/Screenshot-2024-10-28-183535.png"],
-    tech_stacks: [<FaNode size={20} />],
-    preview_link: null,
-    github_link: "https://github.com/goutham41/Monitor-Bitcoin",
-  },
+  // {
+  //   title: "Cryptocurrency Price Tracker",
+  //   description:
+  //     "Real-time, with automated email alerts via Nodemailer when price thresholds are met. Configured flexible environment settings for adaptability across deployments. Additionally, provided API endpoints to retrieve historical Bitcoin price data, ensuring easy access to past trends.",
+  //   img: ["https://i.ibb.co/0BvFtYS/Screenshot-2024-10-28-183535.png"],
+  //   tech_stacks: [<FaNode size={20} />],
+  //   preview_link: null,
+  //   github_link: "https://github.com/goutham41/Monitor-Bitcoin",
+  // },
 ];
 
 const ImageSlider = styled(Slider)(({ theme }) => ({

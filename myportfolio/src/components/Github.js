@@ -1,5 +1,5 @@
 import { Container, Typography, Box, Grid } from "@mui/material";
-import GitHubCalendar from "react-github-calendar";
+// import GitHubCalendar from "react-github-calendar";
 
 export default function Github() {
   return (
@@ -19,12 +19,12 @@ export default function Github() {
         }}
       >
         GitHub Contributions
-        <Box sx={{ marginTop: 0.4 }}>
+        {/* <Box sx={{ marginTop: 0.4 }}>
           <img
             src="https://komarev.com/ghpvc/?username=mdshahbajalam7&label=Profile%20views&color=0e75b6&style=flat"
             alt="mdshahbajalam7"
           />
-        </Box>
+        </Box> */}
       </Typography>
 
       <Grid

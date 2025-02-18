@@ -3,17 +3,17 @@ import { alpha } from "@mui/material";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Container from "@mui/material/Container";
-import Link from "@mui/material/Link";
 import Stack from "@mui/material/Stack";
-import TextField from "@mui/material/TextField";
+// import Link from "@mui/material/Link";
+// import TextField from "@mui/material/TextField";
+// import { motion } from "framer-motion"
 import Typography from "@mui/material/Typography";
-import { motion } from "framer-motion"
 
 export default function Home() {
   const handleDownload = () => {
     const resumeUrl =
-      "https://drive.google.com/file/d/1n2wfHweVTlt6vzjq-dOrk5vk4UsqGMLE/view?usp=sharing"; 
-    window.open(resumeUrl, '_blank');
+      "https://drive.google.com/file/d/1n2wfHweVTlt6vzjq-dOrk5vk4UsqGMLE/view?usp=sharing";
+    window.open(resumeUrl, "_blank");
   };
   return (
     <Box
@@ -45,23 +45,23 @@ export default function Home() {
             sx={{ alignSelf: "center", width: { sm: "100%", md: "80%" } }}
           >
             Hey, My Name is &nbsp;
-           
           </Typography>
           <Typography
-              component="span"
-              variant="h1"
-              textAlign="center"
+            component="span"
+            variant="h1"
+            textAlign="center"
             color="primary.light"
             sx={{ alignSelf: "center", width: { sm: "100%", md: "80%" } }}
-            >
-              Md Shahbaj Alam
-            </Typography>
+          >
+            Md Shahbaj Alam
+          </Typography>
           <Typography
             textAlign="center"
             color="text.secondary"
             sx={{ alignSelf: "center", width: { sm: "100%", md: "80%" } }}
           >
-           I love building beautiful interfaces, web apps, and everything in between!
+            I love building beautiful interfaces, web apps, and everything in
+            between!
           </Typography>
           <Stack
             direction={{ xs: "column", sm: "row" }}
@@ -70,14 +70,11 @@ export default function Home() {
             useFlexGap
             sx={{ pt: 2, width: { xs: "100%", sm: "auto" } }}
           >
-         
-            <Button variant="outlined" color="primary"  onClick={handleDownload}>
-             Resume
+            <Button variant="outlined" color="primary" onClick={handleDownload}>
+              Resume
             </Button>
           </Stack>
-         
         </Stack>
-        
       </Container>
     </Box>
   );

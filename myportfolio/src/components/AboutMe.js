@@ -1,14 +1,6 @@
 import React from "react";
-import {
-  Container,
-  Typography,
-  Box,
-  Grid,
-  Card,
-  CardMedia,
-  CardContent,
-} from "@mui/material";
-import photo from "../chand photo.jpg";
+import { Container, Typography, Box, Grid } from "@mui/material";
+// import photo from "../chand photo.jpg";
 
 const About = () => {
   return (
@@ -47,14 +39,15 @@ const About = () => {
             <ul>
               <li>
                 <Typography variant="body1" color="text.secondary" paragraph>
-                  Over 1.5 years of experience specializing in backend, frontend,
-                  and mobile application development.
+                  Over 1 years 7 months of experience specializing in frontend,
+                  backend development.
                 </Typography>
               </li>
               <li>
                 <Typography variant="body1" color="text.secondary" paragraph>
-                  Proficient in a diverse range of technologies including
-                  Node.js, Express.js, React.js, MongoDB, and AWS.
+                  Proficient in a diverse range of technologies including HTML
+                  CSS and Javascript , React.js , Redux , Node.js, Express.js ,
+                  MongoDB.
                 </Typography>
               </li>
               <li>

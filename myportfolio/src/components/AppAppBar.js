@@ -13,12 +13,12 @@ import MenuIcon from "@mui/icons-material/Menu";
 
 import Logo from "../logo.png";
 
-const logoStyle = {
-  width: "150px",
-  height: "40px",
-  cursor: "pointer",
-  borderRadius: "18px",
-};
+// const logoStyle = {
+//   width: "150px",
+//   height: "40px",
+//   cursor: "pointer",
+//   borderRadius: "18px",
+// };
 
 function AppAppBar() {
   const [open, setOpen] = React.useState(false);
@@ -41,15 +41,15 @@ function AppAppBar() {
     }
   };
 
-  const [isModalOpen, setIsModalOpen] = React.useState(false);
+  // const [isModalOpen, setIsModalOpen] = React.useState(false);
 
-  const openModal = () => {
-    setIsModalOpen(true);
-  };
+  // const openModal = () => {
+  //   setIsModalOpen(true);
+  // };
 
-  const closeModal = () => {
-    setIsModalOpen(false);
-  };
+  // const closeModal = () => {
+  //   setIsModalOpen(false);
+  // };
 
   return (
     <div>
